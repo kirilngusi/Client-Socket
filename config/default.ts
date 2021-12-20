@@ -1,1 +1,4 @@
-export const SOCKET_URL = "https://socket-ts.herokuapp.com/";
+export const SOCKET_URL =
+  process.env.NODE_ENV !== "production"
+    ? "http://localhost:4000"
+    : "https://socket-ts.herokuapp.com/";
