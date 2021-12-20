@@ -1,0 +1,91 @@
+.wrapper {
+  min-height: 100vh;
+  height: 100vh;
+  width: calc(100% - 200px);
+  display: flex;
+  flex-direction: column;
+  background-color:#37393e
+}
+
+.messageList {
+  flex: 1;
+  overflow-y: scroll;
+  padding: 1rem;
+}
+
+.messageList ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.messageBox {
+  display: inline-block;
+  width: 100%;
+  border-top: 1px solid #fff;
+  background-color:#37393e;
+  padding: 1rem;
+  flex-direction: row;
+}
+
+.messageBox form {
+  width: 100%;
+  border:hidden;
+  display: inline-block;
+
+}
+
+.messageBox input {
+  width: 90%;
+  padding: 1rem;
+  font-size: 1rem;
+  background: #40444b;
+  display: inline-block;
+  border-radius: 4px;
+  border:hidden;
+  color: #fff;
+  outline: none;
+
+}
+
+
+.messageBox button {
+  background-color: #37393e;
+  font-size: 1rem;
+  width: 10%;
+}
+
+.message {
+  padding: 10px;
+  color: #fff;
+  font-weight: 420;
+}
+
+.messageInner {
+  display: flex;
+  flex-direction: column;
+}
+
+.messageSender {
+  color: rgb(255, 255, 255);
+  font-size: 13px;
+  font-weight: 750;
+
+}
+
+.messageBody {
+  word-wrap: break-word;
+}
+
+@media screen and (max-width: 1050px) {
+  .wrapper {
+    width: 100% !important;
+    overflow-x: hidden;
+    height: 100vh;
+  }
+
+  .messageBox button {
+    font-size: 13.5px;
+  }
+  
+}
+

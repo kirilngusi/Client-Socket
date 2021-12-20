@@ -8,9 +8,15 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-regular-svg-icons": "^6.0.0-beta3",
+    "@fortawesome/free-solid-svg-icons": "^6.0.0-beta3",
+    "@fortawesome/react-fontawesome": "^0.1.16",
+    "dotenv": "^10.0.0",
     "next": "12.0.7",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "socket.io-client": "^4.4.0"
   },
   "devDependencies": {
     "@types/node": "17.0.0",
